@@ -10,9 +10,9 @@ const HomeScreen = () => {
     <>
       <Container className="carouselHeight" fluid>
         <Carous />
+        <AboutMe />
+        <LatestCards />
       </Container>
-      <LatestCards />
-      <AboutMe />
     </>
   );
 };

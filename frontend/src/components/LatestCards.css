@@ -21,3 +21,9 @@
   color: white;
   background-color: #ce003f;
 }
+
+@media screen and (max-width: 770px) {
+  .mainCardStyle {
+    height: 900px;
+  }
+}

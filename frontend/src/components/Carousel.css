@@ -7,9 +7,11 @@
   width: 100%;
   padding: 0;
   margin: 0;
-  height: 60em;
+  margin-bottom: 50px;
 }
-
+.colorButton {
+  background-color: #ce003f;
+}
 .slideOneContainer {
   background-color: rgba(255, 255, 255, 0.4);
 }
