@@ -6,6 +6,7 @@
 .eachCard {
   width: 25rem;
   margin-right: 2%;
+  height: 500px;
 }
 
 .imageStyle {
@@ -22,8 +23,48 @@
   background-color: #ce003f;
 }
 
+.cardButton {
+  background-color: #ce003f;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+  margin-top: 60px;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.cardTitle {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.cardBodyMain {
+  padding: 20px;
+  padding-top: 60px;
+  padding-left: 45px;
+}
+.cardBodyMainB {
+  padding: 20px;
+  padding-top: 60px;
+  padding-left: 55px;
+}
+
 @media screen and (max-width: 770px) {
   .mainCardStyle {
     height: 900px;
+    margin-left: 50px;
+  }
+  .eachCard {
+    margin-left: 50px;
+  }
+  .cardButton {
+    background-color: #ce003f;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    margin-top: 60px;
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  .cardBodyMain {
+    padding: 70px;
   }
 }

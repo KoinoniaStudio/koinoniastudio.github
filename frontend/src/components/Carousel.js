@@ -5,58 +5,52 @@ import "./Carousel.css";
 
 const Carous = () => {
   return (
-    <Carousel className="mainContainer">
-      <Carousel.Item style={{ height: 600 }} className="imageStyle">
+    <Carousel variant="dark" className="mainContainer" fade>
+      <Carousel.Item style={{ height: 800 }} className="imageStyle">
         <img
           className="d-block w-100"
-          src="./images/JFheartcoasters.png"
+          src="./images/iNNOVATIONphotography-commercial-photographer-Swansea-2.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
           <div className="slideOneContainer">
-            <h3 className="slideOneTitle">Bespoke Coasters</h3>
-            <p>Using any combination of colours.</p>
-            <Button
-              className="slideOneButton"
-              variant="danger"
-              href="/Latest"
-              active
-            >
-              See Jo's coasters
-            </Button>
+            <h3 className="titleOne">Discover our newest pieces</h3>
+            <a className="buttonSliderTwo" href="./latest">
+              Shop now
+            </a>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item style={{ height: 600 }} className="imageStyle">
+      <Carousel.Item style={{ height: 800 }} className="imageStyle">
         <img
           className="d-block w-100"
-          src="./images/JFpinkheartcoaster.png"
+          src="./images/iNNOVATIONphotography-commercial-photographer-Swansea-102.jpg"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Totally unique</h3>
-          <p>Hand crafted in Swansea!</p>
-          <Button href="#" className="colorButton" variant="danger" active>
-            See selection of Coasters
-          </Button>
+          <div className="slideTwoContainer">
+            <h3 className="titleTwo">Collect art that makes an impact</h3>
+            <a className="buttonSliderTwo" href="./latest">
+              Shop now
+            </a>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item style={{ height: 600 }} className="imageStyle">
+      <Carousel.Item style={{ height: 800 }} className="imageStyle">
         <img
           className="d-block w-100"
-          src="./images/JForangepetals.png"
+          src="./images/iNNOVATIONphotography-commercial-photographer-Swansea-5.jpg"
           alt="Third slide"
         />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-          <Button href="#" variant="danger" active>
-            See selection of Coasters
-          </Button>
+        <Carousel.Caption className="sliderCaption">
+          <div className="slideThreeContainer">
+            <h3 className="titleThree">Browse our favourites</h3>
+            <a className="buttonSliderTwo" href="./latest">
+              Shop now
+            </a>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -1,0 +1,54 @@
+.serviceMain {
+  background-color: #f7f7f7;
+  width: 200%;
+  margin-top: 0;
+  margin-left: -500px;
+  padding-left: 500px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-top: -60px;
+  display: flex;
+}
+.serviceLine {
+  display: none;
+}
+.serviceOne {
+  margin-right: 130px;
+  text-align: center;
+  width: 290px;
+}
+.serviceTwo {
+  margin-right: 130px;
+  text-align: center;
+  width: 290px;
+}
+.serviceThree {
+  text-align: center;
+  width: 290px;
+}
+
+.servParaTwo {
+  font-weight: 100;
+  color: #6c6c6c;
+}
+
+.boldTitle {
+  font-weight: 800;
+  color: #3e3d3d;
+}
+
+@media screen and (max-width: 770px) {
+  .serviceMain {
+    flex-direction: column;
+    width: 200%;
+    margin-left: -100px;
+    padding-left: 210px;
+    margin-top: -100px;
+    margin-bottom: 0;
+  }
+
+  .serviceLine {
+    display: flex;
+    width: 300px;
+  }
+}

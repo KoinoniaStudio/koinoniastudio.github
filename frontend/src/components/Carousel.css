@@ -4,20 +4,14 @@
 }
 
 .mainContainer {
-  width: 100%;
+  display: flex;
+  width: 190%;
   padding: 0;
-  margin: 0;
+  margin-left: -450px;
   margin-bottom: 50px;
 }
 .colorButton {
   background-color: #ce003f;
-}
-.slideOneContainer {
-  background-color: rgba(255, 255, 255, 0.4);
-}
-
-.slideOneTitle {
-  color: black;
 }
 
 .slideOneButton {
@@ -30,4 +24,74 @@
 .slideOneButton:hover {
   background-color: white;
   color: #ce003f;
+}
+.titleOne {
+  margin-bottom: 25px;
+}
+
+.titleTwo {
+  margin-bottom: 25px;
+}
+
+.titleThree {
+  margin-bottom: 25px;
+}
+
+.slideOneContainer {
+  margin-bottom: 200px;
+  padding: 70px;
+  border: 5px solid white;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 500px;
+  margin-left: 130px;
+}
+
+.slideTwoContainer {
+  margin-bottom: 200px;
+  padding: 70px;
+  border: 5px solid white;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 500px;
+  margin-left: 130px;
+}
+
+.slideThreeContainer {
+  margin-bottom: 200px;
+  padding: 70px;
+  border: 5px solid white;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 500px;
+  margin-left: 130px;
+}
+.buttonSliderTwo {
+  padding: 20px;
+  background-color: #ce003f;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.5em;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 770px) {
+  .mainContainer {
+    width: 250%;
+    height: 150%;
+    padding: 10px;
+    margin-left: -60px;
+  }
+  .slideThreeContainer {
+    margin-right: 200px;
+    margin-left: -100px;
+  }
+  .slideTwoContainer {
+    margin-right: 200px;
+    margin-left: -100px;
+  }
+  .slideOneContainer {
+    margin-right: 200px;
+    margin-left: -100px;
+  }
 }

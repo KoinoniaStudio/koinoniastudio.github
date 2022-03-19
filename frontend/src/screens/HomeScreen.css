@@ -5,4 +5,10 @@
   font-size: 2em;
   margin-top: 5%;
   margin-bottom: 2%;
+  padding: 0;
+}
+
+.bannerMain {
+  width: 100%;
+  padding: 0;
 }

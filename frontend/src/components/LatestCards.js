@@ -14,11 +14,10 @@ const LatestCards = () => {
           src="./images/JFbrightpinkonblack.png"
           className="imageStyle"
         />
-        <Card.Body>
-          <Card.Title>Current Painting Projects</Card.Title>
-          <Button href="/Latest" className="buttonColor" active>
-            See latest Paintings
-          </Button>
+        <Card.Body className="cardBodyMain">
+          <a className="cardButton" href="/latest">
+            Shop Photography
+          </a>
         </Card.Body>
       </Card>
       <Card className="eachCard">
@@ -28,11 +27,10 @@ const LatestCards = () => {
           src="./images/JFcolourstripes.png"
           alt="second slide"
         />
-        <Card.Body>
-          <Card.Title>My Photography</Card.Title>
-          <Button href="/Latest" className="buttonColor" active>
-            See latest shots
-          </Button>
+        <Card.Body className="cardBodyMainB">
+          <a className="cardButton" href="/latest">
+            Shop wall art
+          </a>
         </Card.Body>
       </Card>
       <Card className="eachCard">
@@ -42,11 +40,10 @@ const LatestCards = () => {
           alt="third slide"
           className="imageStyle"
         />
-        <Card.Body>
-          <Card.Title>Latest Illustrations</Card.Title>
-          <Button href="/Latest" className="buttonColor" active>
-            See latest Illustrations
-          </Button>
+        <Card.Body className="cardBodyMain">
+          <a className="cardButton" href="/latest">
+            Shop coasters art
+          </a>
         </Card.Body>
       </Card>
     </CardGroup>

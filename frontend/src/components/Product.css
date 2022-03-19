@@ -1,5 +1,19 @@
 .lightStyle {
+  border: 0px solid transparent;
+  height: 40vh;
+}
 
-    border: none;
-    height: 40vh;
+.wallArtTitle {
+  color: black;
+  font-weight: 400;
+  width: 150px;
+}
+.wallArtBody {
+  display: flex;
+}
+.wallArtPrice {
+  margin-left: 70px;
+}
+.wallArtArtist {
+  color: #6c6c6c;
 }
