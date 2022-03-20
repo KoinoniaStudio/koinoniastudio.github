@@ -7,6 +7,7 @@ import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
 import LatestScreen from "./screens/LatestScreen";
 import AboutMeScreen from "./screens/AboutMeScreen";
+import CartScreen from "./screens/CartScreen";
 import "./bootstrap.min.css";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/product/:id" component={ProductScreen} />
           <Route path="/Latest" component={LatestScreen} />
           <Route path="/AboutMe" component={AboutMeScreen} />
+          <Route path="/cart" component={CartScreen} />
         </Container>
       </main>
 

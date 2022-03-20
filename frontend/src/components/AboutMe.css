@@ -29,9 +29,10 @@
 @media only screen and (max-width: 770px) {
   .aboutMeDiv {
     margin-top: 0;
-    width: 170%;
-    margin-left: -100px;
-    padding-left: 130px;
-    padding-right: 130px;
+    width: 100%;
+    padding: 20px;
+  }
+  .textSpace {
+    margin: 50px;
   }
 }

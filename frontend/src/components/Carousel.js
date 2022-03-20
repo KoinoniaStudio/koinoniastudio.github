@@ -8,7 +8,7 @@ const Carous = () => {
     <Carousel variant="dark" className="mainContainer" fade>
       <Carousel.Item style={{ height: 800 }} className="imageStyle">
         <img
-          className="d-block w-100"
+          className="d-block w-100 sliderImage"
           src="./images/iNNOVATIONphotography-commercial-photographer-Swansea-2.jpg"
           alt="First slide"
         />
@@ -23,7 +23,7 @@ const Carous = () => {
       </Carousel.Item>
       <Carousel.Item style={{ height: 800 }} className="imageStyle">
         <img
-          className="d-block w-100"
+          className="d-block w-100 sliderImage"
           src="./images/iNNOVATIONphotography-commercial-photographer-Swansea-102.jpg"
           alt="Second slide"
         />
@@ -39,7 +39,7 @@ const Carous = () => {
       </Carousel.Item>
       <Carousel.Item style={{ height: 800 }} className="imageStyle">
         <img
-          className="d-block w-100"
+          className="d-block w-100 sliderImage"
           src="./images/iNNOVATIONphotography-commercial-photographer-Swansea-5.jpg"
           alt="Third slide"
         />

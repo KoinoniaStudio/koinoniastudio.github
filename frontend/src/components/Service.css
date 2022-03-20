@@ -40,15 +40,29 @@
 @media screen and (max-width: 770px) {
   .serviceMain {
     flex-direction: column;
-    width: 200%;
-    margin-left: -100px;
-    padding-left: 210px;
-    margin-top: -100px;
+    width: 100%;
     margin-bottom: 0;
+    margin-left: 1px;
+    padding-left: 70px;
   }
 
   .serviceLine {
     display: flex;
     width: 300px;
+  }
+  .serviceOne {
+    margin-right: 25px;
+    text-align: center;
+    width: 290px;
+  }
+  .serviceTwo {
+    margin-right: 25px;
+    text-align: center;
+    width: 290px;
+  }
+  .serviceThree {
+    margin-right: 25px;
+    text-align: center;
+    width: 290px;
   }
 }

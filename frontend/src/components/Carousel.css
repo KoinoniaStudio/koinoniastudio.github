@@ -76,22 +76,39 @@
 }
 
 @media screen and (max-width: 770px) {
+  .imageStyle {
+    width: 100%;
+  }
   .mainContainer {
-    width: 250%;
-    height: 150%;
-    padding: 10px;
-    margin-left: -60px;
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    margin-left: 0;
+    background-size: cover;
+    margin-bottom: 80px;
   }
   .slideThreeContainer {
-    margin-right: 200px;
-    margin-left: -100px;
+    margin-left: -20px;
+    margin-bottom: 420px;
+    width: 350px;
+    padding: 40px;
   }
   .slideTwoContainer {
-    margin-right: 200px;
-    margin-left: -100px;
+    margin-left: -20px;
+    margin-bottom: 420px;
+    width: 350px;
+    padding: 40px;
   }
   .slideOneContainer {
-    margin-right: 200px;
-    margin-left: -100px;
+    margin-left: -20px;
+    margin-bottom: 420px;
+    width: 350px;
+    padding: 40px;
+  }
+
+  .sliderImage {
+    background-size: cover;
+    height: 450px;
+    width: 100%;
   }
 }
