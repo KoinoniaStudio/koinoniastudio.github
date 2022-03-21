@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/koinoniastudio.github.io/static/css/main.b762f73c.chunk.css",
-    "main.js": "/koinoniastudio.github.io/static/js/main.32db88a4.chunk.js",
-    "main.js.map": "/koinoniastudio.github.io/static/js/main.32db88a4.chunk.js.map",
+    "main.js": "/koinoniastudio.github.io/static/js/main.51a0d242.chunk.js",
+    "main.js.map": "/koinoniastudio.github.io/static/js/main.51a0d242.chunk.js.map",
     "runtime-main.js": "/koinoniastudio.github.io/static/js/runtime-main.1d72a3e9.js",
     "runtime-main.js.map": "/koinoniastudio.github.io/static/js/runtime-main.1d72a3e9.js.map",
     "static/js/2.a58e9f86.chunk.js": "/koinoniastudio.github.io/static/js/2.a58e9f86.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.1d72a3e9.js",
     "static/js/2.a58e9f86.chunk.js",
     "static/css/main.b762f73c.chunk.css",
-    "static/js/main.32db88a4.chunk.js"
+    "static/js/main.51a0d242.chunk.js"
   ]
 }
