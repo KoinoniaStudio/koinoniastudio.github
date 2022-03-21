@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/koinoniastudio.github.io/static/css/main.b762f73c.chunk.css",
+    "main.js": "/koinoniastudio.github.io/static/js/main.21af0167.chunk.js",
+    "main.js.map": "/koinoniastudio.github.io/static/js/main.21af0167.chunk.js.map",
+    "runtime-main.js": "/koinoniastudio.github.io/static/js/runtime-main.1d72a3e9.js",
+    "runtime-main.js.map": "/koinoniastudio.github.io/static/js/runtime-main.1d72a3e9.js.map",
+    "static/js/2.1e62b530.chunk.js": "/koinoniastudio.github.io/static/js/2.1e62b530.chunk.js",
+    "static/js/2.1e62b530.chunk.js.map": "/koinoniastudio.github.io/static/js/2.1e62b530.chunk.js.map",
+    "static/js/3.30695bdb.chunk.js": "/koinoniastudio.github.io/static/js/3.30695bdb.chunk.js",
+    "static/js/3.30695bdb.chunk.js.map": "/koinoniastudio.github.io/static/js/3.30695bdb.chunk.js.map",
+    "index.html": "/koinoniastudio.github.io/index.html",
+    "static/css/main.b762f73c.chunk.css.map": "/koinoniastudio.github.io/static/css/main.b762f73c.chunk.css.map",
+    "static/js/2.1e62b530.chunk.js.LICENSE.txt": "/koinoniastudio.github.io/static/js/2.1e62b530.chunk.js.LICENSE.txt",
+    "static/media/AboutMeScreen.css": "/koinoniastudio.github.io/static/media/woodpecker.7654c7ca.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d72a3e9.js",
+    "static/js/2.1e62b530.chunk.js",
+    "static/css/main.b762f73c.chunk.css",
+    "static/js/main.21af0167.chunk.js"
+  ]
+}
