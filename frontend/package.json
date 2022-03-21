@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepage": "https://koinoniastudio.github.io/",
   "proxy": "http://127.0.0.1:5000/",
   "version": "0.1.0",
   "type": "module",
@@ -9,6 +10,7 @@
     "@testing-library/user-event": "^12.6.0",
     "axios": "^0.21.4",
     "fsevents": "^2.3.2",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
